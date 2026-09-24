@@ -1,0 +1,12 @@
+models/
+.venv/
+.tts-cache/
+__pycache__/
+run.log
+crash.log
+build/
+dist/
+.venv-build/
+ime/build/
+*.wav
+.DS_Store

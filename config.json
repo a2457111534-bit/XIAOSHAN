@@ -1,0 +1,25 @@
+{
+  "trigger_word": [
+    "小删除",
+    "想删除",
+    "小山口",
+    "小山竹",
+    "小珊瑚",
+    "小山虫",
+    "小替换",
+    "想替换",
+    "想退换",
+    "小退换",
+    "大宝贝",
+    "大宝贝儿"
+  ],
+  "hotkey": "any_cmd",
+  "push_mode": "hold",
+  "sample_rate": 16000,
+  "model_dir": "models/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17",
+  "num_threads": 4,
+  "tts_engine": "edge",
+  "tts_voice": "zh-CN-XiaoyiNeural",
+  "tts_feedback": true,
+  "sound_feedback": true
+}

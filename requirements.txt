@@ -1,0 +1,11 @@
+# macOS 版依赖（Windows 版见 requirements-win.txt）
+sherpa-onnx>=1.10.30   # Apache-2.0 推理运行时
+sounddevice            # MIT 录音
+numpy                  # BSD-3
+pyobjc                 # MIT 系统桥接
+pynput                 # LGPL-3.0 全局热键（经 pip 安装使用，未捆绑分发）
+rumps                  # BSD-3 菜单栏
+pypinyin               # MIT 拼音匹配
+# 可选：更好听的语音播报（edge-tts 为 GPL-3.0，不随本项目分发，想用自行安装；
+# 未安装时自动用系统语音）
+# pip install edge-tts

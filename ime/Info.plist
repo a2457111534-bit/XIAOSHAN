@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>zh_CN</string>
+    <key>CFBundleExecutable</key>
+    <string>XiaoShanIME</string>
+    <key>CFBundleIdentifier</key>
+    <string>im.xiaoshan.ime</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>小删输入法</string>
+    <key>CFBundleDisplayName</key>
+    <string>小删输入法</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSBackgroundOnly</key>
+    <true/>
+    <key>InputMethodConnectionName</key>
+    <string>XiaoShan_IME_Connection</string>
+    <key>ComponentInputModeDict</key>
+    <dict>
+        <key>tsInputMethodListKey</key>
+        <array>
+            <string>XiaoShan</string>
+        </array>
+        <key>tsInputModeListKey</key>
+        <dict>
+            <key>im.xiaoshan.ime.XiaoShan</key>
+            <dict>
+                <key>tsInputModeDefaultStateKey</key>
+                <integer>1</integer>
+                <key>tsInputModeKeyInLabel</key>
+                <string>语音</string>
+                <key>tsInputModePrimaryInLabel</key>
+                <string>小删</string>
+                <key>tsInputModeScriptKey</key>
+                <string>Hans</string>
+                <key>tsInputModeMenuIconFileKey</key>
+                <string>icon.icns</string>
+            </dict>
+        </dict>
+        <key>tsVisibleInputModesOrderedArrayKey</key>
+        <array>
+            <string>im.xiaoshan.ime.XiaoShan</string>
+        </array>
+    </dict>
+</dict>
+</plist>
